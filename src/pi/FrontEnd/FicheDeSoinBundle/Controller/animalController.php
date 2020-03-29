@@ -249,15 +249,15 @@ class animalController extends Controller
             ->getQuery();
         $listanimales= $query->getResult();
 
-        /**
-         * @var $paginator \Knp\Component\Pager\Paginator
-         */
-        $paginator = $this->get('knp_paginator');
-        $listanimales = $paginator->paginate(
-            $listanimales,
-            $request->query->getInt('page', 1)
-
-        );
+//        /**
+//         * @var $paginator \Knp\Component\Pager\Paginator
+//         */
+//        $paginator = $this->get('knp_paginator');
+//        $listanimales = $paginator->paginate(
+//            $listanimales,
+//            $request->query->getInt('page', 1)
+//
+//        );
         return $this->render('animal/indexall.html.twig', array('animals' => $listanimales));
     }
 

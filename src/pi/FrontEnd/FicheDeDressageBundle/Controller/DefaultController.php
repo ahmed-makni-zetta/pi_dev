@@ -36,15 +36,15 @@ class DefaultController extends Controller
         $em = $this->getDoctrine()->getManager();
         $user = $this->getUser();
         $notes=$em->getRepository('DresseurBundle:Rating')->findAll();
-        /**
-         * @var $paginator \Knp\Component\Pager\Paginator
-         */
-        $paginator=$this->get('knp_paginator');
-        $result= $paginator->paginate(
-            $notes,
-            $request->query->getInt('page',1),
-            $request->query->getInt('limit',1)
-        );
+//        /**
+//         * @var $paginator \Knp\Component\Pager\Paginator
+//         */
+//        $paginator=$this->get('knp_paginator');
+//        $result= $paginator->paginate(
+//            $notes,
+//            $request->query->getInt('page',1),
+//            $request->query->getInt('limit',1)
+//        );
         $rech = $this->createFormBuilder()
             ->add('Recherche')
             ->getForm();
@@ -59,7 +59,7 @@ class DefaultController extends Controller
         return $this->render('@FicheDeDressage/dressuer.html.twig' , array(
             'veterinaires' => $veterinaires,
             'rech'=>$rech->createView(),
-            'notes'=>$result,
+            'notes'=>$notes,
 
         ));
     }

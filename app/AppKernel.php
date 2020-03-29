@@ -23,7 +23,6 @@ class AppKernel extends Kernel
             new pi\BackEnd\AdminBundle\AdminBundle(),
             new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
             new pi\FrontEnd\AnimaleBundle\AnimaleBundle(),
-           // new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
 
             new pi\FrontEnd\DresseurBundle\DresseurBundle(),
             new blackknight467\StarRatingBundle\StarRatingBundle(),
@@ -33,7 +32,7 @@ class AppKernel extends Kernel
             new pi\BackEnd\ReclamationBundle\ReclamationBundle(),
             new AncaRebeca\FullCalendarBundle\FullCalendarBundle(),
             new pi\FrontEnd\CalenderBundle\CalanderBundle(),
-            new Tiloweb\PaginationBundle\TilowebPaginationBundle(),
+//            new Tiloweb\PaginationBundle\TilowebPaginationBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
           //  new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
 

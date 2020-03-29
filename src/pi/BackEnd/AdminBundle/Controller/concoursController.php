@@ -26,16 +26,16 @@ public function indexAction(Request $request)
         $animal=$em->getRepository('pi\FrontEnd\FicheDeSoinBundle\Entity\animal')->findAll();
 
         $concours = $em->getRepository('ConcoursBundle:concours')->findAll();
-        /**
-         * @var $paginator \knp\Component\Pager\Paginator
-        */
-        $paginator=$this->get('knp_paginator');
-        $result =$paginator->paginate(
-            $concours,
-            $request->query->getInt('page',1),
-            $request->query->getInt('limit',2)
-
-        );
+//        /**
+//         * @var $paginator \knp\Component\Pager\Paginator
+//        */
+//        $paginator=$this->get('knp_paginator');
+//        $result =$paginator->paginate(
+//            $concours,
+//            $request->query->getInt('page',1),
+//            $request->query->getInt('limit',2)
+//
+//        );
 
         if($request->isMethod('post')){
             //var_dump($partcipation->getIdAnimal());die();
@@ -97,7 +97,7 @@ public function indexAction(Request $request)
 
 
         return $this->render('@Admin/Concours/index.html.twig', array(
-            'concours' => $result,
+            'concours' => $concours,
             'animal'=>$animal,'piechart' => $pieChart
         ));
     }
