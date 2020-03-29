@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b757bf3-1769-45d7-ab5e-8003cfafbe31" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_29_03_2020_05_57_c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_29_03_2020_06_09_s.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" beforeDir="false" afterPath="$PROJECT_DIR$/bin/symfony_requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pi/BackEnd/AdminBundle/Controller/concoursController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/BackEnd/AdminBundle/Controller/concoursController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pi/FrontEnd/AdoptionBundle/Repository/AdoptionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/FrontEnd/AdoptionBundle/Repository/AdoptionRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pi/FrontEnd/CouncoursBundle/Controller/concoursController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/FrontEnd/CouncoursBundle/Controller/concoursController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pi/FrontEnd/FicheDeDressageBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/FrontEnd/FicheDeDressageBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pi/FrontEnd/FicheDeSoinBundle/Controller/animalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/FrontEnd/FicheDeSoinBundle/Controller/animalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pi/FrontEnd/VeterinaireBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/FrontEnd/VeterinaireBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/concours/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/concours/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pi/BackEnd/AdminBundle/Resources/views/Concours/demande.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/BackEnd/AdminBundle/Resources/views/Concours/demande.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pi/BackEnd/AdminBundle/Resources/views/Concours/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/BackEnd/AdminBundle/Resources/views/Concours/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pi/FrontEnd/AdoptionBundle/Resources/views/Front/indexAdoption.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/FrontEnd/AdoptionBundle/Resources/views/Front/indexAdoption.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pi/FrontEnd/VeterinaireBundle/Resources/views/veterinaires.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/pi/FrontEnd/VeterinaireBundle/Resources/views/veterinaires.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,8 +287,8 @@
       <command value="c update" />
       <command value="s doctrine:database:create" />
       <command value="s doctrine:schema:create" />
-      <command value="s server:run" />
       <command value="s debug:router" />
+      <command value="s server:run" />
     </option>
   </component>
   <component name="RunManager">
@@ -375,7 +364,7 @@
       <workItem from="1523499493603" duration="1340000" />
       <workItem from="1523502511040" duration="2904000" />
       <workItem from="1523522915750" duration="781000" />
-      <workItem from="1585457230630" duration="1945000" />
+      <workItem from="1585457230630" duration="3055000" />
     </task>
     <servers />
   </component>
@@ -417,22 +406,22 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="462" y="140" key="FileChooserDialogImpl/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585458593126" />
-    <state width="1323" height="161" key="GridCell.Tab.0.bottom" timestamp="1585459003019">
+    <state width="1323" height="161" key="GridCell.Tab.0.bottom" timestamp="1585459908304">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.bottom/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459003019" />
-    <state width="1323" height="161" key="GridCell.Tab.0.center" timestamp="1585459003019">
+    <state width="1323" height="161" key="GridCell.Tab.0.bottom/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459908304" />
+    <state width="1323" height="161" key="GridCell.Tab.0.center" timestamp="1585459908304">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.center/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459003019" />
-    <state width="1323" height="161" key="GridCell.Tab.0.left" timestamp="1585459003019">
+    <state width="1323" height="161" key="GridCell.Tab.0.center/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459908304" />
+    <state width="1323" height="161" key="GridCell.Tab.0.left" timestamp="1585459908304">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.left/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459003019" />
-    <state width="1323" height="161" key="GridCell.Tab.0.right" timestamp="1585459003019">
+    <state width="1323" height="161" key="GridCell.Tab.0.left/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459908304" />
+    <state width="1323" height="161" key="GridCell.Tab.0.right" timestamp="1585459908304">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="161" key="GridCell.Tab.0.right/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459003019" />
+    <state width="1323" height="161" key="GridCell.Tab.0.right/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459908304" />
     <state x="184" y="41" key="SettingsEditor" timestamp="1585458606924">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
@@ -445,14 +434,14 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="92" y="122" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585457824731" />
-    <state x="369" y="115" width="627" height="568" key="find.popup" timestamp="1585458926026">
+    <state x="369" y="115" width="627" height="568" key="find.popup" timestamp="1585459951582">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="369" y="115" width="627" height="568" key="find.popup/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585458926026" />
-    <state x="339" y="180" width="672" height="677" key="run.anything.popup" timestamp="1585459003047">
+    <state x="369" y="115" width="627" height="568" key="find.popup/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459951582" />
+    <state x="339" y="180" width="672" height="677" key="run.anything.popup" timestamp="1585459912232">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="339" y="180" width="672" height="677" key="run.anything.popup/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459003047" />
+    <state x="339" y="180" width="672" height="677" key="run.anything.popup/0.30.1366.738/-1920.0.1920.1050@0.30.1366.738" timestamp="1585459912232" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585458389810">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
